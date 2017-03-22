@@ -22,9 +22,12 @@ namespace ConsoleApp1
 
         static void meineFunktion(int testVariable)
         {
+
             int meineLokaleVariable = 10;
-            Console.WriteLine("global" + meineGlobaleVariable);
+            int meineGlobaleVariable = 12;
+            Console.WriteLine("global" + Program.meineGlobaleVariable);
             Console.WriteLine("lokal" + meineLokaleVariable);
+            Console.WriteLine("global" + meineGlobaleVariable);
 
             Console.WriteLine("lokale testVariable" + testVariable);
         }
